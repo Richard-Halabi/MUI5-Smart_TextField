@@ -1,4 +1,4 @@
-a Simple implementation on MUI Textfield input component. 
+A simple implementation on MUI Textfield input component. 
 
 Design : 
 the component uses 2 states one is local the other is external and one for errors, the local is the one that is used in the value and it is the one that suffers the most manipulation, the point is to ensure the correct data flow to context or redux, using one state cause some issues with other interfaces, so I found this to be the best solution in my case of use. 
